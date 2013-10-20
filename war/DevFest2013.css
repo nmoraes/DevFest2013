@@ -32,3 +32,16 @@ h1 {
 #closeButton {
   margin: 15px 6px 6px;
 }
+
+
+footer {
+	border-top: 3px solid #EFEFEF;
+	color: #666666;
+	font-size: 11px;
+	padding: 10px 0;
+	margin: 300px auto 0;
+	width: 960px;
+	height: 100px;
+	
+}
+
