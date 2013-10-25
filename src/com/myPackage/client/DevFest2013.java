@@ -16,6 +16,9 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
+import com.google.gwt.user.client.ui.TabBar;
+import com.google.gwt.user.client.ui.AbsolutePanel;
+import com.google.gwt.user.client.ui.DecoratedTabBar;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -49,7 +52,8 @@ public class DevFest2013 implements EntryPoint {
 
 		// Add the nameField and sendButton to the RootPanel
 		// Use RootPanel.get() to get the entire body element
-		RootPanel.get("nameFieldContainer").add(nameField);
+		RootPanel rootPanel = RootPanel.get("nameFieldContainer");
+		rootPanel.add(nameField);
 		RootPanel.get("sendButtonContainer").add(sendButton);
 		RootPanel.get("errorLabelContainer").add(errorLabel);
 

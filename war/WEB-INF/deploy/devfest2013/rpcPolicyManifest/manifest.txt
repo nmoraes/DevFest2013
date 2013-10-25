@@ -1,3 +1,2 @@
 # Module devfest2013
 # RPC service class, partial path of RPC policy file
-com.myPackage.client.GreetingService, D84D3A668628EEBC6C06B5945C7511AF.gwt.rpc
